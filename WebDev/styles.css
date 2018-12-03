@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace
+}
+.header {
+    border: 1px solid black;
+    padding: 15px;
+}
+#pic {
+    width: 250px;
+}
+#pic2 {
+    margin-top: 15px;
+    width: 250px;
+}
+.table {
+    margin-top: 15px;
+    width: 250px;
+    float: left;
+    padding: 10px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr { 
+    border: solid thin; 
+}
+th {
+    padding: 5px;
+}
+.main {
+    width: 500px;
+    height: 1005px;
+    text-align: justified;
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid black;
+}
+#trailer {
+    width: 781;
+    height: 480;
+    float: left;
+}
+
