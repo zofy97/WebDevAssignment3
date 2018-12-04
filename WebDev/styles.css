@@ -6,8 +6,9 @@ head {
     margin: 15px;
     width: 100%;
 }
-body {
-    margin: 15px;
+.header {
+    border: 1px solid black;
+    padding: 15px;
 }
 .navbar ul {
     list-style-type: none;
@@ -18,11 +19,9 @@ body {
     width: 100%;
     margin-right: 15px;
 }
-
 .navbar li {
     float: left;
 }
-
 .navbar li a {
     display: block;
     color: white;
@@ -30,31 +29,38 @@ body {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 .navbar li a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
     background-color: #333;
 }
-.header {
+
+body {
+    margin: 15px;
+}
+.leftcolumn {
+    float: left;
+    width: 20%;
+    margin-right: 15px;
+}
+.rightcolumn {
+    float: left;
+    width: 75%;
+}
+.main {
+    background-color: #f1f1f1;
+    height: auto;
+    text-align: justify;
+    float: right;
     border: 1px solid black;
-    padding: 15px;
-}
-#pic {
-    width: 20%;
-}
-#pic2 {
-    margin-top: 15px;
-    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .table {
+    background-color: #f1f1f1;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 20%;
-    float: left;
-    padding: 10px;
     text-align: left;
     border-collapse: collapse;
     border: 1px solid black;
@@ -65,20 +71,18 @@ body {
 .table th {
     padding: 5px;
 }
-.main {
-    width: 79%;
-    height: auto;
-    text-align: justified;
-    float: right;
-    padding-right: 15px;
-    padding-left: 15px;
-    border: 1px solid black;
+#pic {
+    width: 100%;
 }
+#pic2 {
+    width: 100%;
+}
+
 #trailer {
-    margin: 15px;
+    align-self: center;
 }
 #trailer iframe {
-    margin-left: 15px;
-    width: 800px;
-    height: 450px;
+    margin-top: 15px;
+    width: 964px;
+    height: 542px;
 }
