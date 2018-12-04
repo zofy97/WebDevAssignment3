@@ -1,36 +1,73 @@
 * {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+}
+head {
+    margin: 15px;
+    width: 100%;
+}
+body {
+    margin: 15px;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #333;
 }
 .header {
     border: 1px solid black;
     padding: 15px;
 }
 #pic {
-    width: 250px;
+    width: 20%;
 }
 #pic2 {
     margin-top: 15px;
-    width: 250px;
+    width: 20%;
 }
 .table {
     margin-top: 15px;
-    width: 250px;
+    margin-bottom: 15px;
+    width: 20%;
     float: left;
     padding: 10px;
     text-align: left;
     border-collapse: collapse;
     border: 1px solid black;
 }
-tr { 
+.table tr { 
     border: solid thin; 
 }
-th {
+.table th {
     padding: 5px;
 }
 .main {
-    width: 500px;
-    height: 1005px;
+    width: 79%;
+    height: auto;
     text-align: justified;
     float: right;
     padding-right: 15px;
@@ -38,8 +75,10 @@ th {
     border: 1px solid black;
 }
 #trailer {
-    width: 781;
-    height: 480;
-    float: left;
+    margin: 15px;
 }
-
+#trailer iframe {
+    margin-left: 15px;
+    width: 800px;
+    height: 450px;
+}
